@@ -1,0 +1,175 @@
+.objectives {
+    color: rgb(249, 169, 22);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingOnjective {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Afacad';
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.objectives-item {
+    min-width: 200px;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 8px 6px -6px black;
+    position: relative;
+    padding: 30px 20px;
+    background: #f6f4f9;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+    margin: 2rem 0.5rem;
+}
+
+.objectives-item:hover {
+    padding-top: 20px;
+    background: #5500ff;
+    transition: 0.5s;
+}
+
+.objectives-item .objectives-icon {
+    margin: 30px auto 20px auto;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5500ff;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.objectives-item:hover .objectives-icon {
+    background-color: rgb(249, 169, 22);
+    background-size: contain;
+}
+
+.objectives-item h5,
+.objectives-item {
+    text-align: center;
+    transition: .5s;
+}
+
+.objectives-item h5 {
+    font-family: 'Afacad';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.objectives-item p {
+    display: flex;
+    color: gray;
+    padding: 0px 110px;
+}
+
+.objectives-item:hover h5,
+.objectives-item:hover p,
+.objectives-item:hover {
+    color: #FFFFFF;
+}
+
+.objectiveBanner {
+    padding: 70px 130px;
+    margin-top: 50px;
+}
+
+@media (max-width:991px) {
+    .objectiveBanner .responsivCollumn {
+        display: flex;
+        flex-direction: column;
+    }
+    .objectiveBanner .responsivCollumn .col-8 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .objectives-item {
+        min-width: 500px;
+        border-radius: 10px;
+        
+        /* margin: 30px auto; */
+    }
+
+    .objectives{
+        display: flex;
+        padding: 50 0 0px 0px;
+    }
+    .headingOnjective{
+        display: flex;
+        font-size: 30px;
+    }
+    .objectives-item p {
+        padding: 0px 30px;
+    }
+}
+
+@media(max-width:769px) {
+    .objectiveBanner{
+        padding: 10px 30px;
+    }
+    .objectives-item {
+        min-width: 400px;
+        border-radius: 10px;
+        /* margin: 30px auto; */
+    }
+    .objectives-item p {
+        padding: 0px 0px;
+    }
+    .objectives{
+        display: flex;
+        padding: 50px 0 0 0px;
+    }
+    .headingOnjective{
+        display: flex;
+        font-size: 20px;
+    }
+    .objectiveBanner .responsivCollumn .col-8 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+
+@media(max-width:590px) {
+    .objectiveBanner{
+        padding: 0 20px;
+    }
+    .objectives-item {
+        min-width: 250px;
+        width: 100%;
+        border-radius: 10px;
+        /* margin: 30px auto; */
+    }
+    .objectives-item p {
+        padding: 0px 0px;
+    }
+    .objectives{
+        display: flex;
+        font-size: 10px;
+        padding: 50px 0 0 0px;
+    }
+    .headingOnjective{
+        display: flex;
+        font-size: 20px;
+    }
+    .objectiveBanner .responsivCollumn .col-8 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+}

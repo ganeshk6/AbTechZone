@@ -1,0 +1,144 @@
+.aboutServices {
+    padding: 100px;
+    animation: serve 2s ease;
+    background-color: #5500ff;
+    /* color: #FFFFFF; */
+    margin: 0 0 100px 0px;
+}
+
+.aboutServices .headingProficient {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Afacad';
+    font-weight: bold;
+    color: #FFFFFF;
+    /* padding-top: 20px; */
+}
+
+@keyframes serve {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+
+}
+
+.aboutServices-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.aboutServices-item {
+    min-width: 200px;
+    width: 30%;
+    border-radius: 30px;
+    box-shadow: 0 8px 6px -6px black;
+    position: relative;
+    padding: 30px 20px;
+    background: #f6f4f9;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+    margin: 1rem 0.5rem;
+}
+
+.aboutServices-item:hover {
+    padding-top: 20px;
+    background: rgb(249, 169, 22);
+    transition: 0.5s;
+}
+
+.aboutServices-item h1{
+    font-family: 'Afacad';
+}
+
+.aboutServices-item h6{
+    color: gray;
+}
+.aboutServices-item p{
+    margin-top: 40px;
+    color: gray;
+}
+.aboutServices-item h5,
+.aboutServices-item {
+    text-align: center;
+    transition: .5s;
+}
+
+.aboutServices-item:hover h6 ,
+.aboutServices-item:hover p,
+.aboutServices-item:hover {
+    color: #000;
+}
+
+
+.wow {
+    visibility: hidden;
+    text-align: center;
+}
+
+.fadeInUp {
+    animation: fadeInUp 1s ease-in-out;
+    visibility: visible;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width:991px) {
+    .aboutServices {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } 
+    .aboutServices .aboutServices-container{
+        width: 100%;
+    } 
+    .aboutServices-item{
+        border-radius: 10px;
+        padding: 30px;
+    }
+    
+    .aboutServices-container h6{
+        font-size: 15px;
+    }
+
+    /* .bannerServices .row .bannerAboutImage{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    } */
+
+}
+
+@media(max-width:769px) {
+    .aboutServices {
+        padding: 50px 20px;
+    }
+
+  }
+@media(max-width:590px) {
+    .aboutServices {
+        padding: 50px 10px;
+    }
+
+    .aboutServices-item {
+        min-width: 200px;
+        width: 80%;
+        border-radius: 10px;
+    }
+
+  }

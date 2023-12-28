@@ -1,0 +1,69 @@
+.contactPage{
+    padding: 70px 300px;
+    margin: 50px;
+}
+.contactPage p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(249, 169, 22);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contactPage h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Afacad';
+    font-weight: bold;
+}
+.contactForm{
+    margin: 50px;
+    /* display: flex; */
+}
+
+.contactForm .form-control {
+    padding: 15px;
+    margin: 10px;
+}
+
+@media (max-width:1200px) {
+    .contactPage{
+        padding: 70px 80px;
+    }
+}
+
+@media (max-width:991px) {
+    .contactPage{
+        padding: 70px 50px;
+    }
+}
+
+@media(max-width:769px) {
+    .contactPage{
+        padding: 70px 30px;
+    }
+    .contactPage .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactForm{
+        margin: 0px;
+        /* display: flex; */
+    }
+  }
+@media(max-width:590px) {
+    .contactPage{
+        display: flex;
+        flex-direction: column;
+        padding: 70px 10px;
+        margin-left: 30px;
+    }
+
+    .contactForm{
+        margin: 0px;
+        /* display: flex; */
+    }
+
+  }

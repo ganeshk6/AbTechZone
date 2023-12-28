@@ -1,0 +1,21 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+  font-family: 'Afacad', Arial, Helvetica, sans-serif;
+}
+
+@media (max-width:1170px) {}
+
+@media(max-width:768px) {
+  
+}
+
+@media(max-width:590px) {}
